@@ -1,14 +1,15 @@
 Given(/^I land on help popup$/) do
-  puts("User lands on Help popup")
+  text("Помощь")
 end
 
 When(/^I click on Got it button$/) do
-  puts("User clicks on Got it button")
+  find_element(id:"button1").click
+  sleep(2)
 end
 
-Then(/^I land on Area screen$/) do
-  puts("User lands on Area screen")
-end
+Then(/^I land on Area screen$/) {
+  text("Площадь")
+}
 
 When(/^I click on Swap button$/) do
   puts("User clicks on Swap button")
