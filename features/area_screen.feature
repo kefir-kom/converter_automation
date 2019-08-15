@@ -17,7 +17,6 @@ Feature: User is able to convert area units
     Then I see "Sq Metre" in From header
     And I see "Sq Kilometre" in To header
 
-  @wip
   Scenario Outline: User is able to convert default units
     Given I click on clear it button
     When I enter "<target>" to From field
