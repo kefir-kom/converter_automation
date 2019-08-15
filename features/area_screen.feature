@@ -9,7 +9,7 @@ Feature: User is able to convert area units
   Scenario: User is able to dismiss help
     Then I land on Area screen
 
-  @wip
+
   Scenario: User is able to swap value
     Given I see "Sq Kilometre" in From header
     And I see "Sq Metre" in To header
@@ -17,7 +17,7 @@ Feature: User is able to convert area units
     Then I see "Sq Metre" in From header
     And I see "Sq Kilometre" in To header
 
-
+  @wip
   Scenario Outline: User is able to convert default units
     Given I click on clear it button
     When I enter "<target>" to From field
@@ -25,9 +25,9 @@ Feature: User is able to convert area units
 
     Examples:
       | target | result |
-      | 1      | 100000 |
-      | 2      | 200000 |
-      | 3      | 333333 |
+      | 1      | 1000000 |
+      | 2      | 2000000 |
+      | 3      | 3000000 |
 
 
     Scenario: User is able to use soft keyboard to enter values

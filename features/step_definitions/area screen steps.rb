@@ -4,6 +4,7 @@ end
 
 When(/^I click on Got it button$/) do
   find_element(id:"button1").click
+
   # find_element(id: "toolbar").find_element(xpath: "//android.widget.TextView[@text='Area']")
 end
 
