@@ -23,14 +23,26 @@ Feature: User is able to convert area units
     Then I get "<result>" in To field
 
     Examples:
-      | target | result |
+      | target | result  |
       | 1      | 1000000 |
       | 2      | 2000000 |
       | 3      | 3000000 |
 
 
-    Scenario: User is able to use soft keyboard to enter values
-      Given I click on clear it button
-      When I click on From field
-      And I press "123111" jy soft keyboard
-      Then I get "123111000000" in To field
+  Scenario: User is able to use soft keyboard to enter values
+    Given I click on clear it button
+    When I click on From field
+    And I press "123111" jy soft keyboard
+    Then I get "123111000000" in To field
+
+  Scenario Outline: User is able convert in Area
+    Given I enter "5" to From field
+    When I click on "<button>" in To field
+    Then I get "<result>" area in To field
+
+    Examples:
+      | button  | result |
+      | Гектар  | 500    |
+      | Кв.фут  | 5000   |
+      | Кв.дюйм | 5655   |
+      | Акр     | 55     |

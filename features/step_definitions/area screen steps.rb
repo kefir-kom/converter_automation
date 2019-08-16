@@ -61,3 +61,12 @@ def checkValue(value,actualValue)
     fail("Ожидаемый результат = #{value} не равен фактическому = #{actualValue}")
     end
 end
+
+When(/^I click on "([^"]*)" in To field$/) do |value|
+  find_element(id:"    ").find_element(xpath:"//android.widget.CheckedTextView[@text='#{value}']")
+end
+
+Then(/^I get "([^"]*)" area in To field$/) do |value|
+  actualValue =   find_element(id: "   ").text
+  checkValue(value,actualValue)
+end
