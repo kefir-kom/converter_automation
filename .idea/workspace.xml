@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="547d53dd-a539-4fe8-8744-81c6c87baf89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+ HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/features/area_screen.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/area_screen.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/area screen steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/area screen steps.rb" afterDir="false" />
+>>>>>>> 312c0a6b2ebcf1a335d77b90154367e10f6f65ea
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -248,8 +253,13 @@
       <workItem from="1565765785227" duration="737000" />
       <workItem from="1565785427953" duration="2108000" />
       <workItem from="1565807852907" duration="3088000" />
+<<<<<<< HEAD
       <workItem from="1565856209719" duration="15026000" />
       <workItem from="1565982425639" duration="294000" />
+=======
+      <workItem from="1565856209719" duration="14739000" />
+      <workItem from="1565940352450" duration="933000" />
+>>>>>>> 312c0a6b2ebcf1a335d77b90154367e10f6f65ea
     </task>
     <servers />
   </component>
@@ -292,10 +302,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/converter_automation2@Scenario__User_is_able_to_dismiss_help__3_.rcov" NAME="Scenario: User is able to dismiss help (3) Coverage Results" MODIFIED="1565856321708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="converter_automation" />
     <SUITE FILE_PATH="coverage/converter_automation@Scenario__User_is_able_to_dismiss_help.rcov" NAME="Scenario: User is able to dismiss help Coverage Results" MODIFIED="1565352130874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="converter_automation" />
-    <SUITE FILE_PATH="coverage/converter_automation@area_screen_feature.rcov" NAME="area_screen.feature Coverage Results" MODIFIED="1565364149825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="converter_automation" />
     <SUITE FILE_PATH="coverage/converter_automation@Scenario__User_is_able_to_dismiss_help__1_.rcov" NAME="Scenario: User is able to dismiss help (1) Coverage Results" MODIFIED="1565364100700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="converter_automation" />
+    <SUITE FILE_PATH="coverage/converter_automation2@Scenario__User_is_able_to_dismiss_help__3_.rcov" NAME="Scenario: User is able to dismiss help (3) Coverage Results" MODIFIED="1565856321708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="converter_automation" />
+    <SUITE FILE_PATH="coverage/converter_automation@area_screen_feature.rcov" NAME="area_screen.feature Coverage Results" MODIFIED="1565364149825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="converter_automation" />
     <SUITE FILE_PATH="coverage/converter_automation@Scenario__User_is_able_to_dismiss_help__3_.rcov" NAME="Scenario: User is able to dismiss help (3) Coverage Results" MODIFIED="1565615244122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="converter_automation" />
   </component>
 </project>
