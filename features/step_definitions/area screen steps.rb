@@ -61,3 +61,17 @@ def checkValue(value,actualValue)
     fail("Ожидаемый результат = #{value} не равен фактическому = #{actualValue}")
     end
 end
+
+
+When(/^I click on "([^"]*)" in To field$/) do |value|
+  find_element(id: "radio_group_to").find_element(xpath: "//android.widget.RadioButton[@text='#{value}']").click
+end
+
+Then(/^I get "([^"]*)" area in To field$/) do |value|
+  actualValue =   find_element(id: "header_value_to").text
+  checkValue(value,actualValue)
+end
+
+Given(/^I clear pole$/) do
+  find_element(id:"menu_clear").click
+end
