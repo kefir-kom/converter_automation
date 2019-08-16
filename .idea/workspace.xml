@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547d53dd-a539-4fe8-8744-81c6c87baf89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/volume_screen.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/area_screen.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/area_screen.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,7 +248,8 @@
       <workItem from="1565765785227" duration="737000" />
       <workItem from="1565785427953" duration="2108000" />
       <workItem from="1565807852907" duration="3088000" />
-      <workItem from="1565856209719" duration="14739000" />
+      <workItem from="1565856209719" duration="15026000" />
+      <workItem from="1565982425639" duration="294000" />
     </task>
     <servers />
   </component>
